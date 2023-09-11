@@ -17,7 +17,7 @@ class App extends StatelessWidget {
       initialRoute: "/",
       routes: {"/":(context)=>TarefasPage(state: state,),
                "/add":(context)=>TarefasNovo(state: state,)},
-
+      
     );
   }
 }

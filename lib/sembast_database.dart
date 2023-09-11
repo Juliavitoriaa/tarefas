@@ -2,16 +2,9 @@ import 'package:sembast/sembast.dart';
 import 'package:sembast/sembast_io.dart';
 
 class SembastDatabase {
+  String _dbPath = 'tarefas.db';
 
-  String dbPath = 'sample.db';
-  DatabaseFactory dbFactory = databaseFactoryIo;
-  late Database db;
-
-  getInstance() async {
-    if (db==null) {
-      db = await dbFactory.openDatabase(dbPath);
-    }
-  return db;
-}
-
+  Future<Database> getInstance() async {
+    return await databaseFactoryIo.openDatabase(_dbPath);
+  }
 }

@@ -9,9 +9,9 @@ class TarefasNovo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       appBar: AppBar(
-        title: Text("Nova Tarefa"), 
+        title: const Text("Nova Tarefa"),
       ),
       body: TarefasForm(state: this.state),
     );

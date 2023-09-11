@@ -7,15 +7,15 @@ class TarefasPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var state = TarefaState();
+    
 
     return Scaffold(
       appBar: AppBar(title: Text("Tarefas"),),
       body: state.listaTarefas.isEmpty?listaVazia():Container(),
-      floatingActionButton:
-       FloatingActionButton(onPressed: (){
-         Navigator.of(context).pushNamed("/add");
-       }, child: Icon(Icons.add)),
+      floatingActionButton: 
+        FloatingActionButton(onPressed: (){
+          Navigator.of(context).pushNamed("/add");
+        }, child: Icon(Icons.add)),
     );
   }
   
@@ -30,8 +30,9 @@ class TarefasPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: Image.asset("imagens/lista.png"),
+
             ),
-            Text("Lista de Tarefas Vazia!", style: TextStyle(fontSize: 24),)
+            Text("Lista de tarefas vazia!", style: TextStyle(fontSize: 24),)
           ],
         ),
       ],
