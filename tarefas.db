@@ -1,0 +1,23 @@
+{"version":1,"sembast":1}
+{"key":1,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:51:24"}}
+{"key":2,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:55:16"}}
+{"key":3,"store":"tarefas","value":{"descricao":"Teste","prazo":"14/10/2023 12:55:16"}}
+{"key":1,"deleted":true,"store":"tarefas"}
+{"key":4,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:56:13"}}
+{"key":5,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:56:36"}}
+{"key":6,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:57:27"}}
+{"key":7,"store":"tarefas","value":{"descricao":"Tarefa de Teste","prazo":"14/10/2023 12:57:38"}}
+{"key":8,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":9,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":10,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":11,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":12,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":13,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":14,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":15,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":16,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":17,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":18,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":19,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":20,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
+{"key":21,"store":"tarefas","value":{"descricao":"Implementar o método salvar","prazo":"15/09/2023 12:00:00"}}
