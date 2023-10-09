@@ -1,7 +1,9 @@
+import 'package:flutter/widgets.dart';
+
 import 'tarefa_model.dart';
 
 class TarefaState {
-  bool carreagando = false;
+  ValueNotifier<bool> carregando = ValueNotifier(false);
   List<Tarefa> listaTarefas = [];
   Tarefa? tarefa;
 }
