@@ -22,3 +22,5 @@
 {"key":22,"store":"tarefas","value":{"descricao":"Tarefa que foi teste","prazo":"14/10/2023 12:00:00","id":"2"}}
 {"key":23,"store":"tarefas","value":{"descricao":"Tarefa que foi teste","prazo":"14/10/2023 12:00:00","id":"2"}}
 {"key":14,"store":"tarefas","value":{"descricao":"somente essa","prazo":"14/10/2023 12:00:00","id":"14"}}
+{"key":15,"store":"tarefas","value":{"descricao":"Essa alterei também 3","prazo":"28/10/2023 12:00:00","id":"15"}}
+{"key":16,"store":"tarefas","value":{"descricao":"Será que vai tb","prazo":"28/10/2023 12:00:00","id":"16"}}

@@ -12,18 +12,28 @@ class TarefasList extends StatelessWidget {
     var tarefas = state.listaTarefas;
     return ListView.builder(
       itemCount: tarefas.length,
-      itemBuilder: (context, index) => 
-      ListTile(
+      itemBuilder: (context, index) {
+        ValueNotifier<bool> concluido = ValueNotifier(false);
+        return ListTile(
         onTap: () async {
           await Navigator.of(context).pushNamed("/edit",arguments:tarefas[index]);
           state.carregarLista();
         },
          subtitle: prazo(tarefas[index].prazo),
          title: Text(tarefas[index].descricao), 
-         trailing: tarefas[index].concluido!=null?
-           Icon(Icons.check):
-           null,
-      )
+         trailing:
+
+         ValueListenableBuilder(
+            valueListenable:  concluido,
+             builder: (context, value, Widget) {
+               return Checkbox(value: value, onChanged: (value){
+                   concluido.value = value!;
+                   print("Concluído: ${concluido.value}");
+               });
+             }
+          ),
+      );
+      }
       
       ,);
   }
