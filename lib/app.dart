@@ -13,20 +13,20 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TarefaState state = TarefaState();
-    TarefasHelper helper = TarefasHelperImpl();
-
+    TarefasHelper helper = TarefasHelperImpl(); 
+   TarefaState state = TarefaState(helper);
+ 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.orange),
       initialRoute: "/",
-      routes: {"/":(context)=>TarefasPage(helper: helper,),
+      routes: {"/":(context)=>TarefasPage(state:state),
                "/add":(context)=>TarefasNovo(state: state,helper: helper,),
                "/edit":(context) {
-                state.tarefa = ModalRoute.of(context)!.settings.arguments as Tarefa;
-                return TarefasEdit(state: state,helper: helper,);
-                }},
-   
+                 state.tarefa = ModalRoute.of(context)!.settings.arguments as Tarefa;
+                 return TarefasEdit(state: state,helper: helper,);
+               }},
+      
     );
-  } 
+  }
 }
