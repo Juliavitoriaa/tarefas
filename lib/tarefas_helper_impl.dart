@@ -6,10 +6,10 @@ import 'tarefas_helper.dart';
 
 class TarefasHelperImpl extends TarefasHelper {
   @override
-  Future<void> excluir(int id) async {
+  Future<void> delete(Tarefa tarefa) async {
     var store = intMapStoreFactory.store('tarefas');
     var db = (await SembastDatabase().getInstance());
-    await store.delete(db, finder: Finder(filter: Filter.byKey(id)));
+    await store.delete(db, finder: Finder(filter: Filter.byKey(tarefa.id)));
   }
 
   @override

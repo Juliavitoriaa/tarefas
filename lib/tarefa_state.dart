@@ -19,7 +19,14 @@ TarefaState(this.helper);
         listaTarefas = lista; 
         carregando.value = false;
     });
+  }
 
+  salvar(Tarefa tarefa) async {
+    await helper.salvar(tarefa);
+  }
+
+  delete() async {
+  await helper.delete(tarefa!);  
   }
 
 }
